@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="max-w-5xl mx-auto min-h-screen bg-slate-100">
+        <div class="flex flex-col items-center justify-center py-10">
+            <h1 class="text-3xl text-slate-600 pt-10 pb-20">Welcome to the part of learn german language with artikel and nouns</h1>
+            <div class="pb-14">
+                <form id="formde">
+                    <div class="flex flex-col">
+                        <label class="py-1">Check the article</label>
+                    <input type="text" id="artikelde" class="rounded-lg shadow-lg border border-gray-300 bg-slate-700 cursor-text py-2 px-4 text-white focus:outline-none" required placeholder="der, das, die">
+                    </div>
+                    
+                    <hr>
+                    <div class="flex flex-col py-4">
+                        <label class="py-1">Write Noun an gues witch one is correct answer</label>
+                        <input type="text" id="nounde" class="rounded-lg shadow-lg border border-gray-300 bg-slate-700 cursor-text py-2 px-4 text-white focus:outline-none" required placeholder="write noun here">
+                    </div>
+                    <div class="mt-3">
+                        <button class="bg-slate-600 text-white w-full mx-auto hover:scale-105 rounded-lg py-2" type="submit">let's check it</button>
+                    </div>
+                   
+                </form>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 ">
+                <!-- Kart 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg  hover:shadow-2xl hover:scale-100 h-full w-[500px]">
+                    <h2 class="text-center text-xl font-semibold text-gray-800 mb-4">Artikeller</h2>
+                    <p class="text-gray-600 mb-4">Nominativ:
+                        
+                    </p>
+                    <p class="text-gray-600 mb-4">Akkusativ:
+
+                    </p>
+                   
+                </div>
+            
+                <!-- Kart 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg  hover:shadow-2xl hover:scale-100 h-full w-[500px]">
+                    <h2 class="text-xl text-center font-semibold text-gray-800 mb-4">Türkçe Anlamı</h2>
+                    <p class="text-gray-600 mb-4">Türkçe Anlamı: <!-- İçerik burada boş olabilir -->
+                    </p>
+                   
+                </div>
+            </div>
+            <div class="min-h-[120px] text-red-400 text-2xl underline uppercase">
+                <p id="error"></p>
+            </div>
+            
+        </div>
+    </div>
+    <script src="./js/lang.js"></script>
+</body>
+</html>

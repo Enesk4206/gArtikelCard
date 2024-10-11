@@ -1,0 +1,18 @@
+[
+    {
+        "artikel":{"nominativ" : "das","akkusativ":"das"} 
+        ,"german" : "Haus",
+        "turkisch":"Ev"
+    },
+    {
+        "artikel" : {"nominativ":"die","akkusativ":"die"},
+        "german" : "Frau",
+        "turkisch":"Ev"
+    },
+    {
+        "artikel" : {"nominativ":"der" , "akkusativ":"den"},
+        "german":"Mann",
+        "turkisch":"Adam" 
+    }
+
+]
