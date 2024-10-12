@@ -16,7 +16,7 @@ const CallJSON = function (datas) {
 };
 
 // JSON dosyasını çek ve stack'e aktar
-CallJSON("public/json/german.json")
+CallJSON("json/german.json")
     .then(data => stack = data)
     .catch(err => {
         alert(`Hata: ${err.message}`);
