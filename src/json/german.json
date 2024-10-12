@@ -13,6 +13,16 @@
         "artikel" : {"nominativ":"der" , "akkusativ":"den"},
         "german":"Mann",
         "turkisch":"Adam" 
+    },
+    {
+        "german" : "Katze",
+        "artikel" : {"nominativ": "die" , "akkusativ":"die"},
+        "turkisch" : "Kedi"
+    },
+    {
+        "german" : "Zeitung",
+        "artikel" : {"nominativ": "die" , "akkusativ":"die"},
+        "turkisch" : "Gazete"
     }
 
 ]
